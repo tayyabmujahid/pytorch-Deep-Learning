@@ -45,7 +45,7 @@ def show_scatterplot(X, colors, title=''):
     plt.scatter(X[:, 0], X[:, 1], c=colors, s=30)
     # plt.grid(True)
     plt.title(title)
-    plt.axis('off')
+    # plt.axis('off')
 
 
 def plot_bases(bases, width=0.04):
